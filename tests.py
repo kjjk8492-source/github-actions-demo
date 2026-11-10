@@ -2,7 +2,6 @@ import unittest
 
 from main import convert_name_to_uppercase
 
-
 class ConvertNameToUppercaseTests(unittest.TestCase):
     def test_converts_lowercase_name(self) -> None:
         self.assertEqual(convert_name_to_uppercase("alice"), "ALICE")
